@@ -1,4 +1,5 @@
-num1 = int(input())
-num2 = int(input())
-res = solveMeFirst(num1,num2)
-print(res)
+def solveMeFirst(a, b):
+    print(a + b)
+a = int(input())
+b = int(input())
+solveMeFirst(a, b)
